@@ -57,7 +57,7 @@ img{
 	padding: 2%
 }
 .wrapper {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 
 }
@@ -105,16 +105,15 @@ h2{
 }
 .detail{
 	display: flex;
-	
+
 
 }
 .information{
 	width: 60%;
 	text-align: justify;
+
 }
-.date{
-	width: 30%
-}
+
 
 
 .fas, .far{
@@ -134,7 +133,10 @@ h2{
 	font-size: 40px;
 	padding-bottom: 15%;
 }
-
+.respo{
+	display: flex;
+	width: 40%
+}
 
 .soustitre{
 	font-size: 18px;

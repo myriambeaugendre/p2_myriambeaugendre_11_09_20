@@ -1,22 +1,55 @@
 
-
-	.page{
-		width: auto;
-		
-	}
-	.contact, .loisir{
+.page{
+	width: auto;
+	font-size: 40px;
+}
+	
+.contact, .loisir{
 	display: none;
 
 }
-	.flex{
-		size: 8px
-		
-	}
-	.portrait{
+.whiteSide{
+	width: 95%;
+	padding:5%;
+}
+.detail{
+	flex-direction: column;
+	justify-content: center;
+	padding: 5%;
+}	
+.portrait{
 	flex-direction: column-reverse;
 	align-items: center;
 }
-
-.chip{
-	display: none
+.titre, .soustitre, .sous-titre{
+	font-size:30px;
 }
+
+.titres, h2{
+	font-size: 50px;
+}
+
+.information{
+	width: 80%;
+}
+.respo{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.date{
+	width: 100%;
+	display:flex;
+	font-size: 30px;
+}
+.fa-circle, .fa-dot-circle{
+	font-size:20px;
+}
+.date2{
+	padding-right: 2%;
+}
+.end2{
+	padding-left: 0%;
+	padding-top: 3%;
+}
+
