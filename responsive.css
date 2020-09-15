@@ -1,0 +1,22 @@
+
+
+	.page{
+		width: auto;
+		
+	}
+	.contact, .loisir{
+	display: none;
+
+}
+	.flex{
+		size: 8px
+		
+	}
+	.portrait{
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+.chip{
+	display: none
+}
